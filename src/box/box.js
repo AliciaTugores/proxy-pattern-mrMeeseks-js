@@ -40,3 +40,7 @@ Box.prototype.pressButton = function(reality) {
     mrMee.speakOnCreate();
     reality.push(mrMee);
 };
+
+Box.prototype.getProtoMeeseks = function() {
+    return this.mrMeeseeks;
+};
