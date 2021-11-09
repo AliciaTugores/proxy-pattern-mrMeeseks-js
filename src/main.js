@@ -60,16 +60,16 @@ reality[lastMrMeeseeks].fulfillRequest();
 reality.pop();
 console.assert(reality.length == 0);
 
-// // Historia de usuario: Summer press button
-// console.log("\n ### Summer press button ### \n");
+// Historia de usuario: Summer press button
+console.log("\n ### Summer press button ### \n");
 
-// box.pressButton(reality);
-// console.assert(reality.length == 1);
-// console.log("Summer: I wanna be popular at school!");
-// reality[lastMrMeeseeks].makeRequest("be popular", "at school");
-// reality[lastMrMeeseeks].fulfillRequest();
-// reality.pop();
-// console.assert(reality.length == 0);
+box.pressButton(reality);
+console.assert(reality.length == 1);
+console.log("Summer: I wanna be popular at school!");
+reality[lastMrMeeseeks].makeRequest("be popular", "at school");
+reality[lastMrMeeseeks].fulfillRequest();
+reality.pop();
+console.assert(reality.length == 0);
 
 // // // Historia de usuario: Beth press button
 // console.log("\n ### Beth press button ### \n");
