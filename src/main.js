@@ -71,18 +71,18 @@ reality[lastMrMeeseeks].fulfillRequest();
 reality.pop();
 console.assert(reality.length == 0);
 
-// // // Historia de usuario: Beth press button
-// console.log("\n ### Beth press button ### \n");
+// // Historia de usuario: Beth press button
+console.log("\n ### Beth press button ### \n");
 
-// box.pressButton(reality);
-// console.log("Beth: I wanna be a more complete woman!");
-// reality[lastMrMeeseeks].makeRequest("be a more complete", "woman");
-// reality[lastMrMeeseeks].fulfillRequest();
-// reality.pop();
-// console.assert(reality.length == 0);
+box.pressButton(reality);
+console.log("Beth: I wanna be a more complete woman!");
+reality[lastMrMeeseeks].makeRequest("be a more complete", "woman");
+reality[lastMrMeeseeks].fulfillRequest();
+reality.pop();
+console.assert(reality.length == 0);
 
-// // el prototipo no se ha visto alterado con accion
-// // proto.fulfillRequest();  => accion no definido
+// el prototipo no se ha visto alterado con accion
+// proto.fulfillRequest();  => accion no definido
 
 
 // // // Historia de usuario: Jerry y su Mr Meeseeks press button
