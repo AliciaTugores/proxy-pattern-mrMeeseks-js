@@ -34,3 +34,9 @@ Box.prototype.createMrMeeseeks = function() {
 Box.prototype.getProtoMeeseks = function () {
     return this.mrMeeseeks;
 };
+
+Box.prototype.pressButton = function(reality) {
+    let mrMee = this.createMrMeeseeks();
+    mrMee.speakOnCreate();
+    reality.push(mrMee);
+};

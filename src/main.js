@@ -46,19 +46,19 @@ console.assert(proto != mrMeeseeks);
 // para practicar este tipo de estructura
 var reality = [];
 
-// // Historia de usuario: Jerry press button
-// console.log("\n ### Jerry press button ### \n");
+// Historia de usuario: Jerry press button
+console.log("\n ### Jerry press button ### \n");
 
-// box.pressButton(reality);
-// console.assert(reality.length == 1);
+box.pressButton(reality);
+console.assert(reality.length == 1);
 
-// console.log("Rick: Open Jerry's stupid mayonnaise jar");
-// var lastMrMeeseeks = reality.length - 1;
-// reality[lastMrMeeseeks].makeRequest("open", "Jerry's stupid mayonnaise jar");
-// reality[lastMrMeeseeks].fulfillRequest();
-// // meeseeks deja de existir
-// reality.pop();
-// console.assert(reality.length == 0);
+console.log("Rick: Open Jerry's stupid mayonnaise jar");
+var lastMrMeeseeks = reality.length - 1;
+reality[lastMrMeeseeks].makeRequest("open", "Jerry's stupid mayonnaise jar");
+reality[lastMrMeeseeks].fulfillRequest();
+// meeseeks deja de existir
+reality.pop();
+console.assert(reality.length == 0);
 
 // // Historia de usuario: Summer press button
 // console.log("\n ### Summer press button ### \n");
